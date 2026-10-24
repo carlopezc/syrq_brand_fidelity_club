@@ -1,0 +1,40 @@
+# --- Secrets (never commit; keep a .env.example instead) ---
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# --- OS files ---
+.DS_Store
+Thumbs.db
+
+# --- Editors / IDEs ---
+.idea/
+.vscode/
+*.iml
+*.swp
+
+# --- Logs ---
+*.log
+logs/
+
+# --- Dependencies (Node / JS candidates) ---
+node_modules/
+
+# --- Build output (Node, Java/Spring Boot, Flutter candidates) ---
+dist/
+build/
+out/
+target/
+.gradle/
+.next/
+.dart_tool/
+
+# --- Local databases and data dumps ---
+*.sqlite
+*.sqlite3
+*.db
+
+# --- Test / coverage output ---
+coverage/
